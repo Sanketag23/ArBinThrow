@@ -1,0 +1,34 @@
+{
+    "name": "ARInputActions",
+    "maps": [
+        {
+            "name": "TouchActions",
+            "id": "6a774e6f-ebdd-42fa-a04d-dfd26512c517",
+            "actions": [
+                {
+                    "name": "Swipe",
+                    "type": "Value",
+                    "id": "51242025-faa9-4006-8397-bc871b7e0b5d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5ba0f8e9-2c74-4f4f-9ae7-2f55b2048a62",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swipe",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
